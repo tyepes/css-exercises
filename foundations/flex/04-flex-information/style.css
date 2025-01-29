@@ -24,3 +24,36 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title, .container, .sub{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  align-items: center;
+  border: 2px solid black;
+}
+.container {
+
+  margin: 0 120px;
+  border: 2px solid black;
+}
+
+.sub {
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  max-width: 200px;
+
+  justify-content: center;
+}
+img {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+}
+.text {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
